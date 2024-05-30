@@ -5,10 +5,9 @@
 
 class Workout {
 public:
-    Workout();
-    // Declare functions for managing workouts, exercises, and comments
+    // Add constructor and methods for workout management
 private:
-    // Define private member variables or functions if needed
+    // Add workout properties and data members
 };
 
 #endif // WORKOUT_H

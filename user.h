@@ -5,14 +5,12 @@
 
 class User {
 public:
-    User();
-    // Declare functions for user management
-    void signUp(const std::string& username, const std::string& password);
-    bool logIn(const std::string& username, const std::string& password);
-    std::string generateJWT(const std::string& username); // JWT generation function
-    bool verifyJWT(const std::string& token); // JWT verification function
+    User(const std::string& username, const std::string& password);
+    // Add getter and setter methods for user properties
 private:
-    // Define private member variables or functions if needed
+    std::string username;
+    std::string password;
+    // Add other user properties as needed
 };
 
 #endif // USER_H

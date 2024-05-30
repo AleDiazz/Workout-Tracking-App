@@ -1,9 +1,10 @@
 #include <iostream>
-#include "user.h"
-#include "workout.h"
+#include "http_server.h"
 
 int main() {
-    // Entry point of the application
-    // You can start implementing the main logic here
+    // Initialize HTTP server
+    HTTPServer server;
+    server.run(8080); // Change port number as needed
     return 0;
 }
+
